@@ -857,11 +857,18 @@
     @media (max-width: 700px) {
       .hero-philosophie,
       .apropos-grid,
-      .recettes-grid,
       .avis-grid,
       .form-grid,
       .footer-inner {
         grid-template-columns: 1fr;
+      }
+
+      .recettes-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .recette-card.wide {
+        grid-column: span 1;
       }
 
       .nav-links { display: none; }
