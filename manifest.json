@@ -1,0 +1,25 @@
+{
+  "name": "Fusion & Confusion",
+  "short_name": "F&C",
+  "description": "Quand les recettes classiques disent non, nous disons pourquoi pas.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FEF8EE",
+  "theme_color": "#E07B1A",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
